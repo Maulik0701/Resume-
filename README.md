@@ -173,6 +173,7 @@
       <h2>Education</h2>
       <p>12th Pass, currently pursuing BBA (Digital Business & Entrepreneurship) from IIM Bangalore.</p>
     </div>
+</div>
 
     <div class="block">
       <h2>Achievements</h2>
