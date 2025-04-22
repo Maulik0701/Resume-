@@ -1,10 +1,13 @@
 # Resume-
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Maulik Pratap Singh - BBA Student, Digital Entrepreneur, and Creative Enthusiast." />
   <title>Maulik Pratap Singh | Portfolio</title>
   <style>
     :root {
@@ -108,7 +111,7 @@
       background-color: var(--hover-blue);
     }
 
-    /* Dark Mode */
+    /* Dark Mode Styles */
     .dark {
       background-color: var(--dark-bg);
       color: var(--dark-text);
@@ -145,53 +148,54 @@
     <button class="toggle" onclick="toggleTheme()">Toggle Theme</button>
   </header>
 
-  <!-- Profile Picture -->
-  <div class="profile">
-    <img src="profile.jpg" alt="Maulik Pratap Singh Profile Picture">
-  </div>
+  <main>
+    <section class="profile">
+      <img src="profile.jpg" alt="Maulik Pratap Singh Profile Picture">
+    </section>
 
-  <div class="container">
-    <div class="block">
-      <h2>About Me</h2>
-      <p>Student with dreams and hopes to achieve everything.</p>
-    </div>
+    <div class="container">
+      <section class="block">
+        <h2>About Me</h2>
+        <p>Student with dreams and hopes to achieve everything.</p>
+      </section>
 
-    <div class="block">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>Microsoft Office</li>
-        <li>Editing</li>
-        <li>Content Writing</li>
-        <li>Painting</li>
-        <li>Poetry</li>
-        <li>Public Speaking</li>
-      </ul>
-    </div>
+      <section class="block">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>Python</li>
+          <li>Microsoft Office</li>
+          <li>Editing</li>
+          <li>Content Writing</li>
+          <li>Painting</li>
+          <li>Poetry</li>
+          <li>Public Speaking</li>
+        </ul>
+      </section>
 
-    <div class="block">
-      <h2>Education</h2>
-      <p>12th Pass, currently pursuing BBA (Digital Business & Entrepreneurship) from IIM Bangalore.</p>
-    </div>
+      <section class="block">
+        <h2>Education</h2>
+        <p>12th Pass, currently pursuing BBA (Digital Business & Entrepreneurship) from IIM Bangalore.</p>
+      </section>
 
-    <div class="block">
-      <h2>Achievements</h2>
-      <ul>
-        <li>City-level winner – Speech & Debate</li>
-        <li>8th position in All-India Painting Competition</li>
-        <li>City-level Quiz Winner</li>
-        <li>Entrepreneurship Competition – City & Block Level</li>
-        <li>City-level Football Champion</li>
-      </ul>
-    </div>
+      <section class="block">
+        <h2>Achievements</h2>
+        <ul>
+          <li>City-level winner – Speech & Debate</li>
+          <li>8th position in All-India Painting Competition</li>
+          <li>City-level Quiz Winner</li>
+          <li>Entrepreneurship Competition – City & Block Level</li>
+          <li>City-level Football Champion</li>
+        </ul>
+      </section>
 
-    <div class="block">
-      <h2>Contact</h2>
-      <a href="mailto:purendrapratapsingh567@gmail.com" class="btn">Email Me</a><br><br>
-      <a href="https://www.linkedin.com/in/maulik-pratap-singh-68a632280/" target="_blank" class="btn">Visit LinkedIn</a>
+      <section class="block">
+        <h2>Contact</h2>
+        <a href="mailto:purendrapratapsingh567@gmail.com" class="btn">Email Me</a><br><br>
+        <a href="https://www.linkedin.com/in/maulik-pratap-singh-68a632280/" target="_blank" class="btn">Visit LinkedIn</a>
+      </section>
     </div>
-  </div>
+  </main>
 
   <script>
     function toggleTheme() {
@@ -200,3 +204,5 @@
   </script>
 </body>
 </html>
+
+
