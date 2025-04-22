@@ -1,5 +1,5 @@
 # Resume-
-<<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,7 +78,7 @@ li {
 
 .btn {
   display: inline-block;
-  margin-right: 1rem;
+  margin: 0.5rem 0.5rem 0 0;
   padding: 0.5rem 1rem;
   border: none;
   background: var(--bright-blue);
@@ -160,7 +160,7 @@ li {
 <div class="block">
   <h2>Contact</h2>
   <a href="mailto:purendrapratapsingh567@gmail.com" class="btn">Email Me</a>
-  <a href="https://www.linkedin.com/in/maulik-pratap-singh-68a632280" target="_blank" class="btn">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/maulik-pratap-singh-68a632280/" target="_blank" class="btn">View LinkedIn</a>
 </div>
 
   </div>  <script>
