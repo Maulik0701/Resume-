@@ -1,7 +1,5 @@
 # Resume-
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,16 +17,14 @@
       --dark-text: #f5f5f5;
       --light-text: #222;
       --card-bg: #ffffff;
-      --card-dark-bg: #1f1f1f;
-    }
+      --card-dark-bg: #1f1f1f; }
 
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: var(--light-bg);
+    body { margin: 0;
+      font-family: 'Segoe UI',
+       sans-serif;
+      background-color:       var(--light-bg);
       color: var(--light-text);
-      transition: background 0.3s, color 0.3s;
-    }
+      transition: background 0.3s, color 0.3s; }
 
     header {
       background: var(--bright-blue);
@@ -36,8 +32,7 @@
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
-      align-items: center;
-    }
+      align-items: center;}
 
     .toggle {
       background-color: var(--hover-blue);
