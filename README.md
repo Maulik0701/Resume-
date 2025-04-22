@@ -45,15 +45,16 @@
       border-radius: 5px;
     }
 
-    .profile-pic-container {
+    .profile {
       display: flex;
-      justify-content: center;
-      margin-top: 1rem;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem auto 1rem;
     }
 
-    .profile-pic {
-      width: 140px;
-      height: 140px;
+    .profile img {
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       object-fit: cover;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -61,7 +62,7 @@
 
     .container {
       max-width: 1000px;
-      margin: 2rem auto;
+      margin: 0 auto;
       padding: 1rem;
       display: grid;
       gap: 2rem;
@@ -144,9 +145,9 @@
     <button class="toggle" onclick="toggleTheme()">Toggle Theme</button>
   </header>
 
-  <!-- Profile Image -->
-  <div class="profile-pic-container">
-    <img src="profile.jpg" alt="Maulik Pratap Singh" class="profile-pic">
+  <!-- Profile Picture -->
+  <div class="profile">
+    <img src="profile.jpg" alt="Maulik Pratap Singh Profile Picture">
   </div>
 
   <div class="container">
@@ -173,7 +174,6 @@
       <h2>Education</h2>
       <p>12th Pass, currently pursuing BBA (Digital Business & Entrepreneurship) from IIM Bangalore.</p>
     </div>
-</div>
 
     <div class="block">
       <h2>Achievements</h2>
